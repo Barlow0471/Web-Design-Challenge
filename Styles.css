@@ -32,3 +32,8 @@ img {
     float: left;
     padding: 10px;
 }
+
+.container {
+    margin: 100px;
+    border: black;
+}
