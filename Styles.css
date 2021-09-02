@@ -1,5 +1,5 @@
 .navbar-light .navbar-brand {
-    float: left;
+    position: relative;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -14,6 +14,8 @@ h1 {
 }
 
 .navbar-brand {
+    position: absolute;
+    height: 100%;
     font-size: 50px;
     background-color: teal;
     color: white;
