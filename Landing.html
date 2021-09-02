@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Latitude</a>
           <div class="dropdown">
@@ -17,17 +19,16 @@
               Plots
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <li><button class="dropdown-item" type="button">Max Temperature</button></li>
-                <li><button class="dropdown-item" type="button">Humidity</button></li>
-                <li><button class="dropdown-item" type="button">Cloudiness</button></li>
-                <li><button class="dropdown-item" type="button">Wind Speed</button></li>
+                <li><a class="dropdown-item" type="button" href='http://127.0.0.1:5500/11-Web/02-Homework/Web-Design-Challenge/MaxTemperature.html'>Max Temperature</a></li>
+                <li><a class="dropdown-item" type="button" href='http://127.0.0.1:5500/11-Web/02-Homework/Web-Design-Challenge/Humidity.html'>Humidity</a></li>
+                <li><a class="dropdown-item" type="button" href='http://127.0.0.1:5500/11-Web/02-Homework/Web-Design-Challenge/Cloudiness.html'>Cloudiness</a></li>
+                <li><a class="dropdown-item" type="button" href='http://127.0.0.1:5500/11-Web/02-Homework/Web-Design-Challenge/WindSpeed.html'>Wind Speed</a></li>
             </ul>
               <a type="button" class="btn btn-secondary btn-sm" href='http://127.0.0.1:5500/11-Web/02-Homework/Web-Design-Challenge/Comparisons.html#'>Comparison</a>
               <a type="button" class="btn btn-secondary btn-sm" href='http://127.0.0.1:5500/11-Web/02-Homework/Web-Design-Challenge/CitiesTable.html'>Data</a>
-           </div>
           </div>
         </div>
-    </nav>
+      </nav>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6">
@@ -40,7 +41,6 @@
     
         <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as wel as explanations and descriptions of any trends and correlations witnessed.</p>
     
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
       </div>
       <div class="col-md-6">
         <h1>Visualizations</h1>
