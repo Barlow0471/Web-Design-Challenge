@@ -24,6 +24,7 @@ h1 {
 body {
     background-color:whitesmoke;
 }
+
 p {
     border: 20px;
     padding: 20px;
@@ -38,4 +39,14 @@ img {
 .container {
     margin: 100px;
     border: black;
+}
+
+#nav-select {
+    visibility: hidden;
+}
+
+@media (max-width: 480px) {
+    #nav-select {
+        visibility: visible;
+    }
 }
